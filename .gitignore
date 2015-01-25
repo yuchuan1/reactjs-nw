@@ -1,3 +1,8 @@
+tmp/
+
+/bower_components
+
+.DS_Store# ===== Start Node.gitignore =====
 # Logs
 logs
 *.log
@@ -16,13 +21,80 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+# node-waf configuration
+.lock-wscript
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directory
-# Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
-node_modules
+#node_modules
+# ===== End Node.gitignore =====
 
-# Users Environment Variables
-.lock-wscript
+
+build/**
+lib/binding/*
+app/app.nw
+buildTmp/**
+dist/**
+nw.exe - v0.8.6-win-ia32.lnk
+resources/node-webkit/*
+node_modules/*
+app/start.bat
+app/build.bat
+cache/**
+.sass-cache
+
+resources/windows/*
+ScreenCapture/DesktopStreamer/bin/**
+ScreenCapture/DesktopStreamer/obj/**
+ScreenCapture/DxCapture/obj/*
+TcpServer/Solution.v12.suo
+TcpServer/tcpServer/bin/**
+TcpServer/tcpServer/obj/**
+TcpServer/Test App/bin/**
+TcpServer/Test App/obj/**
+node_modules/data_client/node_modules/**
+TcpServer/DataServer/bin/**
+TcpServer/DataServer/obj/**
+TcpServer/DataServer/obj/**
+TcpServer/ScreenCapture/bin/**
+TcpServer/ScreenCapture/obj/*
+TcpServer/DataServer/obj/*
+node_modules/desktop_streamer_node/tests/qrcode.png
+node_modules/desktop_streamer_node/tests/sendingImage.png
+TcpServer/DataServer/obj/**
+app/qrcode.png
+log.txt
+
+app/node_modules/desktop_streamer_node/tests/qrcode.png
+app/imgs/video-s0814fc6d6b.png
+app/css/video.css
+temp
+app/css/qr.css
+app/css/qr2.css
+app/css/video.css
+app/node_modules/*
+app/node_modules/desktop_streamer_node/tests/imgs/*
+app/node_modules/desktop_streamer_node/tests/dsa.db
+app/node_modules/desktop_streamer_node/tests/dsa.db
+app/node_modules/desktop_streamer_node/tests/imgs/qrcode.png
+app/node_modules/desktop_streamer_node/node_modules/*
+app/node_modules/desktop_streamer_node/tests/imgs/qrcode.png
+app/node_modules/desktop_streamer_node/tests/dsa.db
+app/node_modules/desktop_streamer_node/tests/dsa.db
+desktop_streamer_node/node_modules/**
+dsa.db
+*.log
+
+qrcode.png
+*.db
+*.log
+screenshot.png
+screenshot.png
+preview.png
+screenshot.png
+documentation-output/**
+*.tmp
+*.orig
